@@ -15,8 +15,8 @@ add_subdirectory(src)
 add_executable(sample_app)
 target_sources(sample_app PRIVATE ${CMAKE_SOURCE_DIR}/src/main.c)
 target_link_libraries(sample_app PRIVATE
-	mylib
-	new_mylib	
+	c_lib
+	new_c_lib	
 )
 
 target_linker_map(sample_app)

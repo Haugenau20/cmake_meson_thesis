@@ -1,5 +1,5 @@
-add_library(mylib STATIC)
-target_sources(mylib PRIVATE
+add_library(c_lib STATIC)
+target_sources(c_lib PRIVATE
     a.c
     b.c
     c.c
@@ -7,12 +7,12 @@ target_sources(mylib PRIVATE
 	e.c
 )
 
-target_link_options(mylib PUBLIC "-nostartfiles")
-target_link_libraries(mylib PUBLIC architecture_specific)
-target_include_directories(mylib PUBLIC ${PROJECT_SOURCE_DIR}/lib)
+target_link_options(c_lib PUBLIC "-nostartfiles")
+target_link_libraries(c_lib PRIVATE architecture_specific)
+target_include_directories(c_lib PUBLIC ${PROJECT_SOURCE_DIR}/lib)
 
-add_library(new_mylib STATIC)
-target_sources(new_mylib PRIVATE
+add_library(new_c_lib STATIC)
+target_sources(new_c_lib PRIVATE
     f.c
     g.c
     h.c
@@ -20,6 +20,6 @@ target_sources(new_mylib PRIVATE
     j.c
 )
 
-target_link_options(new_mylib PUBLIC "-nostartfiles")
-target_link_libraries(new_mylib PUBLIC architecture_specific)
-target_include_directories(new_mylib PUBLIC ${PROJECT_SOURCE_DIR}/lib)
+target_link_options(new_c_lib PUBLIC "-nostartfiles")
+target_link_libraries(new_c_lib PRIVATE architecture_specific)
+target_include_directories(new_c_lib PUBLIC ${PROJECT_SOURCE_DIR}/lib)
