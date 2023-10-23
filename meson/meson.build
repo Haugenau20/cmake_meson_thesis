@@ -1,4 +1,4 @@
-project('Repeatability_test_desktop',
+project('Repeatability_test_laptop',
     ['c'],
     default_options : [
         'c_std=c11',
