@@ -25,13 +25,13 @@ endif()
 # Toolchain Config #
 ####################
 
-set(CMAKE_C_COMPILER    arm-none-eabi-gcc)
-set(CMAKE_CXX_COMPILER  arm-none-eabi-g++)
-set(AS                  arm-none-eabi-as)
-set(CMAKE_AR            arm-none-eabi-gcc-ar)
-set(OBJCOPY             arm-none-eabi-objcopy)
-set(OBJDUMP             arm-none-eabi-objdump)
-set(SIZE                arm-none-eabi-size)
+set(CMAKE_C_COMPILER    arm-none-eabi-gcc.exe)
+set(CMAKE_CXX_COMPILER  arm-none-eabi-g++.exe)
+set(AS                  arm-none-eabi-as.exe)
+set(CMAKE_AR            arm-none-eabi-gcc-ar.exe)
+set(OBJCOPY             arm-none-eabi-objcopy.exe)
+set(OBJDUMP             arm-none-eabi-objdump.exe)
+set(SIZE                arm-none-eabi-size.exe)
 
 # If set to ONLY, then only the roots in CMAKE_FIND_ROOT_PATH (i.e., the host machine)
 # will be searched. If set to NEVER, then the roots in CMAKE_FIND_ROOT_PATH will

@@ -1,4 +1,4 @@
-# Install script for directory: C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/src
+# Install script for directory: C:/makefile_tests/cmake/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
