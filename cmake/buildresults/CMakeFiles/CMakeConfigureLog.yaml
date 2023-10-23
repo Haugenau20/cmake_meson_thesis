@@ -4,22 +4,22 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:199 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The target system is: Generic -  - arm
-      The host system is: Windows - 10.0.22621 - AMD64
+      The host system is: Windows - 10.0.19045 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc.exe 
-      Build flags: -mcpu=cortex-m3;-mthumb;-mfloat-abi=soft;-D_FILE_OFFSET_BITS=64;-fdiagnostics-color=always;-Wall;-Winvalid-pch;-std=c11;-mabi=aapcs;-fPIC;-O3
+      Build flags: -mcpu=cortex-m3;-mthumb;;-mfloat-abi=soft;;-D_FILE_OFFSET_BITS=64;-fdiagnostics-color=always;-Wall;-Winvalid-pch;-std=c11;-mabi=aapcs;-fPIC;-O3
       Id flags:  
       
       The output was:
@@ -32,14 +32,14 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc.exe 
-      Build flags: -mcpu=cortex-m3;-mthumb;-mfloat-abi=soft;-D_FILE_OFFSET_BITS=64;-fdiagnostics-color=always;-Wall;-Winvalid-pch;-std=c11;-mabi=aapcs;-fPIC;-O3
+      Build flags: -mcpu=cortex-m3;-mthumb;;-mfloat-abi=soft;;-D_FILE_OFFSET_BITS=64;-fdiagnostics-color=always;-Wall;-Winvalid-pch;-std=c11;-mabi=aapcs;-fPIC;-O3
       Id flags: -c 
       
       The output was:
@@ -49,19 +49,19 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/3.27.6/CompilerIdC/CMakeCCompilerId.o
+        C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/CMakeScratch/TryCompile-suf8dx"
-      binary: "C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/CMakeScratch/TryCompile-suf8dx"
+      source: "C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/CMakeScratch/TryCompile-bxkru7"
+      binary: "C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/CMakeScratch/TryCompile-bxkru7"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m3 -mthumb  -mfloat-abi=soft  -D_FILE_OFFSET_BITS=64 -fdiagnostics-color=always -Wall -Winvalid-pch -std=c11 -mabi=aapcs -fPIC -O3"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -70,10 +70,9 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/CMakeScratch/TryCompile-suf8dx'
+        Change Dir: C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/CMakeScratch/TryCompile-bxkru7
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_82964
-        [1/2] C:\\ProgramData\\chocolatey\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m3 -mthumb  -mfloat-abi=soft  -D_FILE_OFFSET_BITS=64 -fdiagnostics-color=always -Wall -Winvalid-pch -std=c11 -mabi=aapcs -fPIC -O3    -v -o CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s):C:/PROGRA~1/Meson/ninja.EXE -v cmTC_77f66 && [1/2] C:\\ProgramData\\chocolatey\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m3 -mthumb  -mfloat-abi=soft  -D_FILE_OFFSET_BITS=64 -fdiagnostics-color=always -Wall -Winvalid-pch -std=c11 -mabi=aapcs -fPIC -O3    -v -o CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\ProgramData\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -81,8 +80,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m'
-         c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v7-m/nofp -iprefix c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ -D _FILE_OFFSET_BITS=64 C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -mabi=aapcs -mlibarch=armv7-m -march=armv7-m -auxbase-strip CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj -O3 -Wall -Winvalid-pch -std=c11 -version -fdiagnostics-color=always -fPIC -o C:\\Users\\soere\\AppData\\Local\\Temp\\ccWqgxwl.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m'
+         c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v7-m/nofp -iprefix c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ -D _FILE_OFFSET_BITS=64 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -mabi=aapcs -mlibarch=armv7-m -march=armv7-m -auxbase-strip CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj -O3 -Wall -Winvalid-pch -std=c11 -version -fdiagnostics-color=always -fPIC -o C:\\Users\\sokh\\AppData\\Local\\Temp\\cc3NvXFq.s
         GNU C11 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -103,20 +102,20 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m'
-         c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj C:\\Users\\soere\\AppData\\Local\\Temp\\ccWqgxwl.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m'
+         c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj C:\\Users\\sokh\\AppData\\Local\\Temp\\cc3NvXFq.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
         COMPILER_PATH=c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/;c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/;c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v7-m/nofp/;c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/;c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m'\x0d
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_82964.a && arm-none-eabi-gcc-ar qc libcmTC_82964.a  CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj && C:\\ProgramData\\chocolatey\\bin\\arm-none-eabi-ranlib.exe libcmTC_82964.a && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m'\x0d
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_77f66.a && arm-none-eabi-gcc-ar qc libcmTC_77f66.a  CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj && C:\\ProgramData\\chocolatey\\bin\\arm-none-eabi-ranlib.exe libcmTC_77f66.a && cd ."
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -135,16 +134,15 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/CMakeScratch/TryCompile-suf8dx']
+        ignore line: [Change Dir: C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/buildresults/CMakeFiles/CMakeScratch/TryCompile-bxkru7]
         ignore line: []
-        ignore line: [Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_82964]
-        ignore line: [[1/2] C:\\ProgramData\\chocolatey\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m3 -mthumb  -mfloat-abi=soft  -D_FILE_OFFSET_BITS=64 -fdiagnostics-color=always -Wall -Winvalid-pch -std=c11 -mabi=aapcs -fPIC -O3    -v -o CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s):C:/PROGRA~1/Meson/ninja.EXE -v cmTC_77f66 && [1/2] C:\\ProgramData\\chocolatey\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m3 -mthumb  -mfloat-abi=soft  -D_FILE_OFFSET_BITS=64 -fdiagnostics-color=always -Wall -Winvalid-pch -std=c11 -mabi=aapcs -fPIC -O3    -v -o CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\ProgramData\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -152,8 +150,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m']
-        ignore line: [ c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v7-m/nofp -iprefix c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ -D _FILE_OFFSET_BITS=64 C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -mabi=aapcs -mlibarch=armv7-m -march=armv7-m -auxbase-strip CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj -O3 -Wall -Winvalid-pch -std=c11 -version -fdiagnostics-color=always -fPIC -o C:\\Users\\soere\\AppData\\Local\\Temp\\ccWqgxwl.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m']
+        ignore line: [ c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v7-m/nofp -iprefix c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ -D _FILE_OFFSET_BITS=64 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -mabi=aapcs -mlibarch=armv7-m -march=armv7-m -auxbase-strip CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj -O3 -Wall -Winvalid-pch -std=c11 -version -fdiagnostics-color=always -fPIC -o C:\\Users\\sokh\\AppData\\Local\\Temp\\cc3NvXFq.s]
         ignore line: [GNU C11 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -174,8 +172,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m']
-        ignore line: [ c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj C:\\Users\\soere\\AppData\\Local\\Temp\\ccWqgxwl.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m']
+        ignore line: [ c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj C:\\Users\\sokh\\AppData\\Local\\Temp\\cc3NvXFq.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
         ignore line: [COMPILER_PATH=c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
         ignore line: [c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
@@ -187,8 +185,8 @@ events:
         ignore line: [c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/]
         ignore line: [c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m'\x0d]
-        ignore line: [[2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_82964.a && arm-none-eabi-gcc-ar qc libcmTC_82964.a  CMakeFiles/cmTC_82964.dir/CMakeCCompilerABI.c.obj && C:\\ProgramData\\chocolatey\\bin\\arm-none-eabi-ranlib.exe libcmTC_82964.a && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m3' '-mthumb' '-mfloat-abi=soft' '-D' '_FILE_OFFSET_BITS=64' '-Wall' '-Winvalid-pch' '-std=c11' '-mabi=aapcs' '-fPIC' '-O3' '-v' '-o' 'CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7-m' '-march=armv7-m'\x0d]
+        ignore line: [[2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_77f66.a && arm-none-eabi-gcc-ar qc libcmTC_77f66.a  CMakeFiles/cmTC_77f66.dir/CMakeCCompilerABI.c.obj && C:\\ProgramData\\chocolatey\\bin\\arm-none-eabi-ranlib.exe libcmTC_77f66.a && cd ."]
         ignore line: []
         ignore line: []
         implicit libs: []
