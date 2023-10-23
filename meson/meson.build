@@ -1,4 +1,4 @@
-project('sorensProject',
+project('Repeatability_test_desktop',
     ['c'],
     default_options : [
         'c_std=c11',
