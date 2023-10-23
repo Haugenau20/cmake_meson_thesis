@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(Sorensproject
+project(CMake_Repeatability_test_desktop
 	VERSION 1.0
 	DESCRIPTION "A project"
 	LANGUAGES C
