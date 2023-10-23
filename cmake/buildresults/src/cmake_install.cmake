@@ -1,8 +1,8 @@
-# Install script for directory: C:/makefile_tests/cmake/src
+# Install script for directory: C:/thesis/cmake_meson_thesis/cmake_meson_thesis/cmake/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CMake_Repeatability_test_desktop")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CMake_Repeatability_test_laptop")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

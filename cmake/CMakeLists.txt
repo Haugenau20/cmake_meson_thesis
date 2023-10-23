@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(CMake_Repeatability_test_desktop
+project(CMake_Repeatability_test_laptop
 	VERSION 1.0
 	DESCRIPTION "A project"
 	LANGUAGES C

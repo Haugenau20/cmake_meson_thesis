@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: CMake_Repeatability_test_desktop
+# Project: CMake_Repeatability_test_laptop
 # Configurations: 
 # =============================================================================
 # =============================================================================
@@ -80,7 +80,7 @@ rule C_STATIC_LIBRARY_LINKER__new_mylib_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\makefile_tests\cmake -BC:\makefile_tests\cmake\buildresults
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\thesis\cmake_meson_thesis\cmake_meson_thesis\cmake -BC:\thesis\cmake_meson_thesis\cmake_meson_thesis\cmake\buildresults
   description = Re-running CMake...
   generator = 1
 
