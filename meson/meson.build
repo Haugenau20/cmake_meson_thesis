@@ -1,4 +1,4 @@
-project('Repeatability_test_desktop',
+project('Repeatability_test_LINAK_pc',
     ['c'],
     default_options : [
         'c_std=c11',
