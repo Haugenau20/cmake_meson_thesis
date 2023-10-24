@@ -24,4 +24,3 @@ project('Repeatability_test_laptop',
 
 subdir('arch')
 subdir('src')
-
