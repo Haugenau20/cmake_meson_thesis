@@ -5,6 +5,8 @@ project(CMake_quality_test
 	LANGUAGES C
 )
 
+set(CMAKE_BUILD_TYPE Debug)
+
 include(cmake/Conversions.cmake)
 
 add_subdirectory(arch/arm)

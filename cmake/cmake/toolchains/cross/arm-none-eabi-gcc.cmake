@@ -55,7 +55,7 @@ set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 #	https://cmake.org/cmake/help/latest/variable/CMAKE_LANG_FLAGS_INIT.html
 
 set(CMAKE_C_FLAGS_INIT
-	"-fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -g -O0 ${CPU_FLAGS} ${VFP_FLAGS} -fPIC"
+	"${CPU_FLAGS} ${VFP_FLAGS}"
 	CACHE
 	INTERNAL "Default C compiler flags.")
 set(CMAKE_CXX_FLAGS_INIT
