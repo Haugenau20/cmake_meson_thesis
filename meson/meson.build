@@ -23,5 +23,4 @@ project('meson_quality_test',
 #         check: true,
 # )
 
-subdir('arch')
 subdir('src')

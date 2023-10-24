@@ -33,10 +33,9 @@ c_lib = static_library(
 c_dep = declare_dependency(
     include_directories: [
         c_include, 
-        host_machine_arch_sys_include,
     ],
 	link_args: c_link_flags,
-    link_with: [c_lib, new_c_lib]
+    link_with: [c_lib, new_c_lib],
 )
 
 if meson.is_cross_build()
@@ -73,10 +72,11 @@ if meson.is_cross_build()
 
 	sample_app = executable('sample_app',
 		'main.c',
-		dependencies: c_dep,
+		dependencies: [c_dep],
 		link_args: [
 			linker_script_flags,
 			map_file.format(meson.current_build_dir()+'/sample_app'),
+			'-Wl,--no-gc-sections',
 		],
 		link_depends: linker_script_deps,
 	)

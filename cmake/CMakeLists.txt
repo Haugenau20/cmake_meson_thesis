@@ -8,8 +8,6 @@ project(CMake_quality_test
 set(CMAKE_BUILD_TYPE Debug)
 
 include(cmake/Conversions.cmake)
-
-add_subdirectory(arch/arm)
 add_subdirectory(src)
 
 add_executable(sample_app)
