@@ -1,4 +1,4 @@
-project('Repeatability_test_laptop',
+project('meson_quality_test',
     ['c'],
     default_options : [
         'c_std=c11',

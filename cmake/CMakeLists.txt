@@ -1,11 +1,9 @@
 cmake_minimum_required(VERSION 3.17)
-project(CMake_Repeatability_test_LINAK_pc
+project(CMake_quality_test
 	VERSION 1.0
 	DESCRIPTION "A project"
 	LANGUAGES C
 )
-
-set(CMAKE_C_STANDARD 11)
 
 include(cmake/Conversions.cmake)
 
