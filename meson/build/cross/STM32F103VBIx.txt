@@ -5,7 +5,7 @@
 # For more information: http://mesonbuild.com/Cross-compilation.html
 
 [built-in options]
-c_args = [ '-mcpu=cortex-m3', '-mfloat-abi=soft', '-mabi=aapcs', '-mthumb', '-O3', '-DNDEBUG']
+c_args = [ '-mcpu=cortex-m3', '-mfloat-abi=soft', '-mabi=aapcs', '-mthumb',]
 c_link_args = [ '-mcpu=cortex-m3', '-mfloat-abi=soft', '-mabi=aapcs', '-mthumb',]
 cpp_args = [ '-mcpu=cortex-m3', '-mfloat-abi=soft', '-mabi=aapcs', '-mthumb',]
 cpp_link_args = [ '-mcpu=cortex-m3', '-mfloat-abi=soft', '-mabi=aapcs', '-mthumb']
