@@ -1,10 +1,7 @@
 # CMake ignore #
 cmake/buildresults
 cmake/*_output
-cmake/Makefile
 
 # Meson ignore #
 meson/buildresults
 meson/*_output
-meson/test.sh
-meson/subprojects
