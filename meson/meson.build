@@ -8,19 +8,5 @@ project('meson_quality_test',
     version: '1.0',
 )
 
-# bash = find_program('bash', required: false, disabler: true)
-
-# url = 'http://my_url/'
-# rev = 'head'
-
-# run_command(
-#         bash,
-#         meson.project_source_root() + '/test.sh',
-#         meson.project_source_root(),
-#         url,
-#         rev,
-#         capture: false,
-#         check: true,
-# )
-
+# Execute meson.build in src/ 
 subdir('src')
