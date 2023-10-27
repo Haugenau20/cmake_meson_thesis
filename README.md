@@ -6,8 +6,8 @@ The project is organized into the following directories:
 
 cmake: Contains the project source code and configuration files for building with CMake.  
 meson: Contains the project source code and configuration files for building with Meson.  
-cmake_build_output: Terminal output and .hex file generated when building the project with CMake on different machines.   
-meson_build_output: Terminal output and .hex file generated when building the project with Meson on different machines.  
+cmake_build_output: Terminal output and .hex file generated when project was built with CMake on different machines.   
+meson_build_output: Terminal output and .hex file generated when project was built with Meson on different machines.  
 
 ## Dependencies used for output folders
 | dep | Version | choco install |
