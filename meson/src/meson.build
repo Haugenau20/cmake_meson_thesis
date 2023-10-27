@@ -19,7 +19,7 @@ new_c_files = files(
 # Include directory for the libraries
 c_include = include_directories('../lib')
 
-# Link flag variable.
+# Create link flag variable.
 # -nostartfiles; don't include standard startup files
 c_link_flags = ['-nostartfiles']
 
@@ -71,7 +71,7 @@ if meson.is_cross_build()
 		endif
 	endforeach
 
-	# map file template hardcoded for gcc compiler 
+	# Map file template hardcoded for gcc compiler 
 	map_file = '-Wl,-Map,@0@.map'
 
 	# Find objcopy.exe specified in the cross-file.
