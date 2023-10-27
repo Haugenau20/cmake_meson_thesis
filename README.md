@@ -9,8 +9,9 @@ meson: Contains the project source code and configuration files for building wit
 cmake_build_output: Terminal output and .hex file generated when project was built with CMake on different machines.   
 meson_build_output: Terminal output and .hex file generated when project was built with Meson on different machines.  
 
-## Dependencies used for output folders
-| dep | Version | choco install |
+## Dependencies
+Dependencies and versions used to create the output files.
+| Dependency | Version | choco install |
 | --- | --- | --- |
 | CMake                  | 3.27.7 | cmake |
 | Meson | 1.2.3 | meson | 
