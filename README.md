@@ -33,7 +33,7 @@ ninja -C buildresults
 
 ## Building with Meson
 To build the project with Meson, follow these steps.
-1. open powershell and navigate to the 'meson' directory
+1. Open powershell and navigate to the 'meson' directory
 2. Run the following commands
 ```powershell
 meson setup buildresults --cross-file build/cross/arm.txt --cross-file build/cross/STM32F103VBIx.txt
