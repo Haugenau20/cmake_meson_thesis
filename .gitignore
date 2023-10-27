@@ -1,7 +1,7 @@
 # CMake ignore #
 cmake/buildresults
-cmake/*_output
+cmake/*_output.txt
 
 # Meson ignore #
 meson/buildresults
-meson/*_output
+meson/*_output.txt
