@@ -37,7 +37,7 @@ cmake -B buildresults -G Ninja -DCMAKE_TOOLCHAIN_FILE="cmake\toolchains\cross\ST
 ```powershell
 cmake --build buildresults
 ```
-3. All built files are located in the 'buildresults' directory
+3. All build files and outputs are located in the 'buildresults' directory
 
 ## Building with Meson
 To build the project with Meson, follow these steps.
@@ -51,4 +51,5 @@ meson setup buildresults --cross-file build/cross/arm.txt --cross-file build/cro
 ```powershell
 meson compile -C buildresults
 ```
-
+3. All build files and outputs are located in the 'buildresults' directory
+   * hex and bin files are located in the 'buildresults/src' directory 
