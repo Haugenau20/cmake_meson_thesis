@@ -4,7 +4,8 @@ Average times are calculated from 10 clean builds.
 ## Laptop:
 | Backend | avg. time [s] |
 | --- | --- |
-| Make | 4.498 |   
+| Make | 4.498 |
+| Make (Parallel) | 2.936 |
 | Ninja | 3.393 |
 
 ## Work Laptop:
