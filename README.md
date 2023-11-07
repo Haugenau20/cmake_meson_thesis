@@ -1,5 +1,6 @@
 # cmake_meson_thesis
-This repository contains a project that can be built using both CMake and Meson build systems. Additionally, it includes the terminal outputs and .hex files from three different machines.
+This repository contains a project that can be built using both CMake and Meson build systems. Additionally, it includes the terminal outputs and .hex files from three different machines.   
+Perfomance for CMake and Meson builds have been added and can be found in the build output folders. 
 
 ## Project Overview
 The project is organized into the following directories:
