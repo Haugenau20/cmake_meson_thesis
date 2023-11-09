@@ -5,8 +5,6 @@ project(CMake_quality_test
 	LANGUAGES C
 )
 
-set(CMAKE_BUILD_PARALLEL_LEVEL 8)
-
 # Set build tyoe to Debug (-g)
 set(CMAKE_BUILD_TYPE Debug)
 
