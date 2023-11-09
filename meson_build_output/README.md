@@ -13,3 +13,14 @@ CPU: Intel i5-8265U, 4 Cores 8 Threads
 | Ninja | 7.844 |
 ## Desktop
 TBD
+
+## Powershell Commands
+* Ninja
+```Powershell
+del buildresults -Recurse -Force
+$executionTime = Measure-Command {
+& meson setup buildresults --cross-file build/cross/arm.txt --cross-file build/cross/STM32F103VBIx.txt
+& meson compile -C buildresults }
+$executionTime.TotalMilliseconds | Out-File -FilePath .\ninja_time_output.txt -Append
+```
+
