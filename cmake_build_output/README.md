@@ -18,7 +18,12 @@ CPU: Intel i5-8265U, 4 Cores 8 Threads
 | Ninja | 5.085 |
 
 ## Dekstop:
-TBD
+CPU: Intel i7-10700K, 8 Cores 16 Threads
+| Backend | avg. time [s] |
+| --- | --- |
+| Make | 3.859 |   
+| Make (Parallel) | 2.418 |
+| Ninja | 1.571 |
 
 ## Powershell commands:
 * Make:
