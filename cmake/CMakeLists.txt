@@ -5,8 +5,6 @@ project(CMake_quality_test
 	LANGUAGES C
 )
 
-set(CMAKE_BUILD_PARALLEL_LEVEL 8)
-
 # Set build tyoe to Debug (-g)
 set(CMAKE_BUILD_TYPE Debug)
 
@@ -26,7 +24,7 @@ target_link_libraries(sample_app PRIVATE
 )
 
 # Custom functions to create memory map
-target_linker_map(sample_app)
+# target_linker_map(sample_app)
 
 # Custom function to convert from ELF to .hex and .bin
 convert_to_hex(sample_app)

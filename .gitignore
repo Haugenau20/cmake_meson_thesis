@@ -1,6 +1,7 @@
 # CMake ignore #
 cmake/buildresults
 cmake/*_output.txt
+cmake/cmake/toolchains/cross/*armclang*
 
 # Meson ignore #
 meson/buildresults
